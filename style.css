@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: auto;
+}
+nav .container {
+    padding: 2px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container ul{
+    display: flex;
+}
+
+nav .container ul li{
+    margin-right: 20px;
+}
+
+nav .container ul li a{
+    color: white;
+}
+
+#home {
+    text-align: center;
+    padding: 100px 0px;
+}
+#home #nama{
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: normal;
+}
+#home #role{
+    margin-top: -50px;
+}
+
+#about {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+#about .konten{
+    display: flex;
+    justify-content: center;
+}
+
+#about .konten p{
+    width: 20%;
+}
+
+footer {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list-project {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 25%;
+    margin: 0px 15px;
+    border: 1px solid black;
+}
+.card img {
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+input {
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+}
+textarea {
+    width: 99%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+#project {
+    padding: 100px 0px;
+}
+#contact {
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
